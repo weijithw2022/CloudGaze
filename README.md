@@ -18,12 +18,19 @@ The detection and prediction of cloud motion from ground based visible light ima
 ```plaintext
 CloudGaze/
 ├── data/
-│   ├── raw/           # Original LandSat images
-│   ├── processed/     # Processed and segmented images
-├── src/
-│   ├── filters/       # Sun and cloud filtering functions
-│   ├── motion/        # Cloud motion detection and prediction
-│   └── utils/         # Helper functions and utilities
+│   ├── filtered/          # Original LandSat images
+│   ├── followed/
+|   ├── movement/
+│   ├── predicted/
+│   ├── followed/
+│   ├── presentation/
+│   ├── processed/
+│   ├── saved/
+│   ├── segmented/
+│   └── segmented/thresholded/
+├── src/      # Cloud motion detection and prediction
+│   ├── version1.py/   
+│   └── kalmanfilter.py/         # Helper functions and utilities
 ├── models/            # Pre-trained and custom segmentation models
 └── README.md          # Project documentation
 
