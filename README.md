@@ -30,7 +30,9 @@ CloudGaze/
 │   └── segmented/thresholded/
 ├── src/      # Cloud motion detection and prediction
 │   ├── version1.py/   
-│   └── kalmanfilter.py/         # Helper functions and utilities
+│   └── kalmanfilter.py/
+├── data/
+│   ├── network.py/               # Helper functions and utilities
 ├── models/            # Pre-trained and custom segmentation models
 └── README.md          # Project documentation
 
