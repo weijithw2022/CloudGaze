@@ -32,7 +32,8 @@ CloudGaze/
 │   ├── version1.py/   
 │   └── kalmanfilter.py/
 ├── data/
-│   ├── network.py/               # Helper functions and utilities
+│   ├── network.py/
+│   ├── loss.py/               # Helper functions and utilities
 ├── models/            # Pre-trained and custom segmentation models
 └── README.md          # Project documentation
 
