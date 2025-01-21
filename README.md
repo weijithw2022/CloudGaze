@@ -39,8 +39,8 @@ CloudGaze/
 │   │   ├── findcentroid.py/
 │   │   ├── imagecap.py/
 │   │   ├── largestcontour.py/
-│   │   ├── largestcontour.py/
-│   │   ├── largestcontour.py/                     
+│   │   ├── lucasKanademodel.py/
+│   │   ├── lucasKanadethresholded.py/                     
 ├── models/            
 └── README.md         
 
