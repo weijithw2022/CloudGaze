@@ -36,7 +36,9 @@ CloudGaze/
 │   │   ├── loss.py/           
 │   ├── temp/
 │   │   ├── contours.py/
-│   │   ├── findcentroid.py/                  
+│   │   ├── findcentroid.py/
+│   │   ├── imagecap.py/
+│   │   ├── largestcontour.py/                
 ├── models/            
 └── README.md         
 
