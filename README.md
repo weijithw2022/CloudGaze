@@ -35,7 +35,9 @@ CloudGaze/
 │   │   ├── network.py/
 │   │   ├── loss.py/           
 │   ├── temp/
+│   │   ├── avgvector.py/
 │   │   ├── contours.py/
+│   │   ├── filterbrightmask.py/
 │   │   ├── findcentroid.py/
 │   │   ├── imagecap.py/
 │   │   ├── largestcontour.py/
