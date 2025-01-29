@@ -25,7 +25,7 @@ def check_mask_values(mask_path):
             print(f"Value {value}: Other regions (or noise)")
 
 # Path to your mask image
-mask_path = "/Users/weijithwimalasiri/Project/data:segmented:thresholded/IMG_1817.PNG"
+mask_path = "/data:segmented:thresholded/IMG_1817.PNG"
 
 # Check the mask values
 check_mask_values(mask_path)
