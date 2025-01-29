@@ -37,5 +37,5 @@ def find_and_color_sun(image_path, max_brightness_threshold=240):
         return None
 
 # Example usage
-image_path = "/Users/weijithwimalasiri/Desktop/UoM_S5/CS3283_Embedded_Systems_Project/Project/images/output/IMG_1807.jpg"
+image_path = "/output/IMG_1807.jpg"
 colored_image = find_and_color_sun(image_path)
