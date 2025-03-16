@@ -2,6 +2,8 @@
 
 Landsat Sky Image based Determination of Cloud Motion to Predict Solar Obscuration  
 
+![Solar Forecasting](1.jpg)
+
 ## Project Overview 
 The detection and prediction of cloud motion from ground based visible light images are critical for optimizing solar energy generation and improving solar facility yield predictions. Moreover, understanding cloud dynamics provides valuable insights for climate modeling.
 **CloudGaze** is a cloud motion detection and prediction system designed to analyze the movement of clouds using LandSat images. The project applies image segmentation techniques, motion detection algorithms, and predictive modeling to assess potential sun coverage and forecast cloud movement.
@@ -12,6 +14,7 @@ The detection and prediction of cloud motion from ground based visible light ima
 - **Centroid Calculation:** Identifies largest cloud and sun positions for spatial analysis.  
 - **Predictive Modeling:** Estimates cloud motion and sun coverage probabilities using a Kalman filter.   
 - **Real-Time Processing:** Periodic image capture using an RPi camera module for dynamic cloud tracking.
+
 
 ## You can get the paper from:
 [Paper and Poster](https://drive.google.com/drive/folders/17PPVxA6rgk40WpDEWhJqYYWTZ_OpCGi2?usp=drive_link)
