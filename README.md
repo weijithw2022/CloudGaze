@@ -19,6 +19,7 @@ The detection and prediction of cloud motion from ground based visible light ima
 ```bash
 git clone https://github.com/wayneweiqiang/PhaseNet.git
 cd PhaseNet
+```
 
 
 ## Project Structure  
