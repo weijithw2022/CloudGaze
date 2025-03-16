@@ -26,6 +26,14 @@ cd CloudGaze
 conda env create -f environment.yaml
 conda activate ml_base
 ```
+ ## 2. Download the dataset
+ 
+[Google Drive Link](https://drive.google.com/file/d/1M7_Cnm79XJ7fVagPmRALkzF5Hbb5ypc-/view?usp=drive_link)
+
+ ## 3. Run the code
+ ```bash
+python src/version1.py
+```
 
 
 ## Project Structure  
@@ -60,11 +68,5 @@ CloudGaze/
 └── README.md
 
 
-## 1. Install Miniconda and Requirements
-
-### Download PhaseNet Repository
-```bash
-git clone https://github.com/wayneweiqiang/PhaseNet.git
-cd PhaseNet
-
+```
 
