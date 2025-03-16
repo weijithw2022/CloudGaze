@@ -12,7 +12,10 @@ The detection and prediction of cloud motion from ground based visible light ima
 - **Centroid Calculation:** Identifies largest cloud and sun positions for spatial analysis.  
 - **Predictive Modeling:** Estimates cloud motion and sun coverage probabilities using a Kalman filter.   
 - **Real-Time Processing:** Periodic image capture using an RPi camera module for dynamic cloud tracking.
-  
+
+## You can get the paper from:
+[Paper and Poster](https://drive.google.com/drive/folders/17PPVxA6rgk40WpDEWhJqYYWTZ_OpCGi2?usp=drive_link)
+
  ## 1. Install Miniconda and Requirements
 
 ### Download CloudGaze Repository
