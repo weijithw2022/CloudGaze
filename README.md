@@ -21,9 +21,13 @@ git clone https://github.com/weijithw2022/CloudGaze.git
 cd CloudGaze
 ```
 
+### Install to "ml_base" Virtual Environment
+```bash
+conda env create -f environment.yaml
+conda activate ml_base
+```
 
-## Project Structure  
-```plaintext
+
 ## Project Structure  
 ```plaintext
 CloudGaze/
