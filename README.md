@@ -11,40 +11,49 @@ The detection and prediction of cloud motion from ground based visible light ima
 - **Optical Flow Analysis:** Lucas-Kanade algorithm to track cloud motion vectors.  
 - **Centroid Calculation:** Identifies largest cloud and sun positions for spatial analysis.  
 - **Predictive Modeling:** Estimates cloud motion and sun coverage probabilities using a Kalman filter.   
-- **Real-Time Processing:** Periodic image capture using an RPi camera module for dynamic cloud tracking.  
- 
+- **Real-Time Processing:** Periodic image capture using an RPi camera module for dynamic cloud tracking.
+  
+ ## 1. Install Miniconda and Requirements
 
+### Download PhaseNet Repository
+```bash
+git clone https://github.com/wayneweiqiang/PhaseNet.git
+cd PhaseNet
+
+
+## Project Structure  
+```plaintext
 ## Project Structure  
 ```plaintext
 CloudGaze/
 ├── data/
 │   ├── filtered/          
 │   ├── followed/
-|   ├── movement/
+│   ├── movement/
 │   ├── predicted/
-│   ├── followed/
 │   ├── presentation/
 │   ├── processed/
 │   ├── saved/
 │   ├── segmented/
-│   └── segmented/thresholded/
+│   │   └── thresholded/
 ├── src/     
-│   ├── version1.py/   
-│   └── kalmanfilter.py/
+│   ├── version1.py   
+│   ├── kalmanfilter.py
 │   ├── models/
-│   │   ├── network.py/
-│   │   ├── loss.py/           
+│   │   ├── network.py
+│   │   ├── loss.py           
 │   ├── temp/
-│   │   ├── avgvector.py/
-│   │   ├── contours.py/
-│   │   ├── filterbrightmask.py/
-│   │   ├── findcentroid.py/
-│   │   ├── imagecap.py/
-│   │   ├── largestcontour.py/
-│   │   ├── lucasKanademodel.py/
-│   │   ├── lucasKanadethresholded.py/                     
+│   │   ├── avgvector.py
+│   │   ├── contours.py
+│   │   ├── filterbrightmask.py
+│   │   ├── findcentroid.py
+│   │   ├── imagecap.py
+│   │   ├── largestcontour.py
+│   │   ├── lucasKanademodel.py
+│   │   ├── lucasKanadethresholded.py                     
 ├── models/            
 └── README.md
+
 
 ## 1. Install Miniconda and Requirements
 
