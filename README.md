@@ -44,5 +44,13 @@ CloudGaze/
 │   │   ├── lucasKanademodel.py/
 │   │   ├── lucasKanadethresholded.py/                     
 ├── models/            
-└── README.md         
+└── README.md
+
+## 1. Install Miniconda and Requirements
+
+### Download PhaseNet Repository
+```bash
+git clone https://github.com/wayneweiqiang/PhaseNet.git
+cd PhaseNet
+
 
