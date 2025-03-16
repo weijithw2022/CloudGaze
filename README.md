@@ -15,10 +15,10 @@ The detection and prediction of cloud motion from ground based visible light ima
   
  ## 1. Install Miniconda and Requirements
 
-### Download PhaseNet Repository
+### Download CloudGaze Repository
 ```bash
-git clone https://github.com/wayneweiqiang/PhaseNet.git
-cd PhaseNet
+git clone https://github.com/weijithw2022/CloudGaze.git
+cd CloudGaze
 ```
 
 
