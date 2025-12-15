@@ -21,8 +21,8 @@ The detection and prediction of cloud motion from ground based visible light ima
 
 ## References
 
-- S. Dev, Y. H. Lee, S. Winkler. **Color-based segmentation of sky/cloud images from ground-based cameras**. *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, vol. 10, no. 1, pp. 231-242, January 2017 (Dataset)
 - Pekko Tuominen, Minttu Tuononen; Cloud detection and movement estimation based on sky camera images using neural networks and the Lucas-Kanade method. AIP Conf. Proc. 27 June 2017; 1850 (1): 140020 (Root Method)
+- S. Dev, Y. H. Lee, S. Winkler. **Color-based segmentation of sky/cloud images from ground-based cameras**. *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*, vol. 10, no. 1, pp. 231-242, January 2017 (Dataset)
 
  ## 1. Install Miniconda and Requirements
 
